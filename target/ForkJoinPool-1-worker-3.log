@@ -1,35 +1,40 @@
-23:22:35.155 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-23:22:39.108 request:
-1 > POST https://reqres.in/api/users
-1 > Accept: application/json
+23:41:03.294 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:41:05.249 request:
+1 > POST https://reqres.in/api/register
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
-1 > Content-Length: 32
-1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
 1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.11)
-{"name":"ritika","job":"intern"}
+email=eve.holt%40reqres.in&password=pistol
 
-23:22:40.203 response time in milliseconds: 1088.59
-1 < 201
+23:41:06.655 response time in milliseconds: 1396.51
+1 < 200
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 67c2d6e57fe14ae6-HYD
+1 < CF-RAY: 67c2f1e7a91e4ad4-HYD
 1 < Connection: keep-alive
-1 < Content-Length: 82
+1 < Content-Length: 36
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Mon, 09 Aug 2021 17:52:39 GMT
+1 < Date: Mon, 09 Aug 2021 18:11:05 GMT
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aOAODyJfE%2BGnsbQJL7SPYbwwGysHM3IgQ%2BWpIUkkRoiED6gRHt2zASFIEsBSEQEI1%2BvJSxjMJnMTJSM0r4bVVbSfqwr6s34tGSjWMmRtq0%2F6Y1HEpO3KP7OVEzc%3D"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IO9g0m47QIZO4PqGROGV8Q5eiW%2FMbRXhKVSNNBvDCsU6EKmHKxqWN6KvheqZtQewljI8tFW0ckFF%2F2JpBxQ8kW64kbW0nSNU1YpnFm5PNDQlKc0HSxO0qlNRXZ8%3D"}],"group":"cf-nel","max_age":604800}
 1 < Server: cloudflare
 1 < access-control-allow-origin: *
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
-1 < etag: W/"52-wy6eHpS+p6YcYGY1RJ0Y9BoErlI"
+1 < etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
 1 < via: 1.1 vegur
 1 < x-powered-by: Express
-{"name":"ritika","job":"intern","id":"107","createdAt":"2021-08-09T17:52:39.516Z"}
+{"id":4,"token":"QpwL5tke4Pnpja7X4"}
 
-support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+23:41:06.866 [print] {
+  "id": 4,
+  "token": "QpwL5tke4Pnpja7X4"
+}
+
+23:41:06.922 [print] QpwL5tke4Pnpja7X4
+":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
 
 16:06:16.402 [print] {
   "data": {

@@ -1,0 +1,11 @@
+<testsuite failures="0" name="src/test/java/org/example/features/userDetails1.feature" skipped="0" tests="1" time="4.273193">
+  <testcase classname="src.test.java.org.example.features.userDetails1" name="request user 3 details" time="4.273193">
+    <system-out>* def expectedOutput = read ('../data/result.json') ....................... passed
+* def feature = read('userDetails.feature') ............................... passed
+* def result = call feature ............................................... passed
+Given url 'https://reqres.in/api/users/2' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print result ......................................................... passed</system-out>
+  </testcase>
+</testsuite>

@@ -24,6 +24,7 @@ import java.util.List;
 
 
 
+@KarateOptions(tags={"~@ignore"})
 public class TestRunner {
 
     @Test

@@ -1,4 +1,4 @@
-23:41:03.294 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:33:58.095 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
 23:41:05.249 request:
 1 > POST https://reqres.in/api/register
 1 > Accept-Encoding: gzip,deflate

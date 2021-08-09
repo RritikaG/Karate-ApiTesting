@@ -1,0 +1,16 @@
+<testsuite failures="1" name="src/test/java/org/example/features/getcall.feature" skipped="0" tests="1" time="2.642769">
+  <testcase classname="src.test.java.org.example.features.getcall" name="request user 3 details" time="2.642769">
+    <failure message="-unknown-:4 - could not find or read file: ../data/result1.json">* def expectedOutput = read('../data/result1.json') ....................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: -unknown-:4 - could not find or read file: ../data/result1.json&#13;
+	at ✽.* def expectedOutput = read('../data/result1.json') (-unknown-:4)&#13;
+
+Given url 'https://reqres.in/api/users/3' ................................. skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+* def myFun = function (){return 'hi'} .................................... skipped
+* def returnData = call myFun ............................................. skipped
+Then print returnData ..................................................... skipped</failure>
+  </testcase>
+</testsuite>

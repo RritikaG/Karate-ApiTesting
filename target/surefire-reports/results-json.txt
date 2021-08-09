@@ -1,1 +1,1 @@
-{"features":1,"ignored":0,"efficiency":0.7466524627483444,"failures":null,"totalTime":3607.8247,"threads":1,"scenarios":1,"failed":0,"passed":1,"version":"0.9.6","elapsedTime":4832.0}
+{"features":1,"ignored":0,"efficiency":0.6420722060252673,"failures":{"src.test.java.org.example.features.getcall":"-unknown-:4 - could not find or read file: ..\/data\/result1.json"},"totalTime":2642.7692,"threads":1,"scenarios":1,"failed":1,"passed":0,"version":"0.9.6","elapsedTime":4116.0}

@@ -8,8 +8,8 @@ Feature: Api Authentication Testing
     * def params =
     """
      {
-       'email':'eve.holt@reqres.in',
-       'password':'pistol'
+       'email':'#(email)',
+       'password':'#(password)'
      }
     """
     And form fields params

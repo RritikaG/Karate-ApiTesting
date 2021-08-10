@@ -1,52 +1,49 @@
-11:18:58.136 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-10:02:58.485 request:
-1 > POST https://dummy.restapiexample.com/api/v1/create
+11:36:13.830 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:36:15.230 request:
+1 > GET https://reqres.in/api/users/2
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
-1 > Content-Length: 41
-1 > Content-Type: application/json; charset=UTF-8
-1 > Host: dummy.restapiexample.com
+1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.11)
-{"name":"test","salary":"123","age":"23"}
 
-10:03:01.141 response time in milliseconds: 2635.88
-1 < 429
-1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 67c680de7d721d89-BLR
+11:36:15.989 response time in milliseconds: 746.37
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1522
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 67c7097f9fae1d29-BLR
+1 < Cache-Control: max-age=14400
 1 < Connection: keep-alive
-1 < Content-Type: text/html; charset=UTF-8
-1 < Date: Tue, 10 Aug 2021 04:32:59 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 10 Aug 2021 06:06:14 GMT
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=puyungCvcBaXP8SfwERU%2BotZIagnRSq5XWUs82YTV7u%2FYKgllG10%2BO6X9VCQdt3GSXboGwXLjSpSSC2yVslXZJBuO84XHMpEkM7bVLXFZHiB1Z3k6BtgdHJtGiaG8ixsfxgIafI2EHwxQkM%3D"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZsvVCs%2BRhR886qShzx4JlHB9x2ICh4jz7ERw%2Fh9%2F8yW4p%2Fo7cQzeYVIVOI%2FP%2B%2B%2BupOJeyBD0UUuo%2FGv%2F1Yx6oJk69TdIBpvwV85zBifg6VF2BbpMR4XrX5WLadg%3D"}],"group":"cf-nel","max_age":604800}
 1 < Server: cloudflare
 1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
-1 < display: staticcontent_sol
-1 < expires: Mon, 09 Aug 2021 04:32:59 GMT
-1 < host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
-1 < pagespeed: off
-1 < referrer-policy: 
-1 < response: 429
-1 < retry-after: 41
-1 < vary: [Accept-Encoding, Accept-Encoding,Origin]
-1 < x-ezoic-cdn: Miss
-1 < x-middleton-display: staticcontent_sol
-1 < x-middleton-response: 429
-1 < x-origin-cache-control: no-cache, private
-1 < x-ratelimit-limit: 60
-1 < x-ratelimit-remaining: 57
-1 < x-ratelimit-reset: 1628570020
-1 < x-sol: pub_site
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
 
-        <title>Too Many Requests</title>
+11:36:16.147 [print] {
+  "data": {
+    "last_name": "Weaver",
+    "id": 2,
+    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+    "first_name": "Janet",
+    "email": "janet.weaver@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
 
-        <!-- Fonts -->
+11:36:18.242 [print]
+Fonts -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 

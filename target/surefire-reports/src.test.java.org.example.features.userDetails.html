@@ -46,7 +46,7 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-08-09 03:59:23 PM</div>
+                <div id="nav-date">2021-08-10 11:36:18 AM</div>
                         
       
                 <div class="nav-container">
@@ -67,7 +67,7 @@
                             <div class="scenario-tags"></div>
                             <span class="scenario-keyword">Scenario: [1:3]</span><span class="scenario-name">get call test </span>
                         </div>
-                        <div class="scenario-time passed">ms: 4499</div>
+                        <div class="scenario-time passed">ms: 4391</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="1">
@@ -76,41 +76,41 @@
                         </div>
                         <div class="time-cell passed">6</div>
                     </div>
-                    <div class="preformatted" data-parent="1">15:59:18.386 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="preformatted" data-parent="1">11:36:13.830 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
                     <div class="step-row">
                         <div class="step-container" id="2">
                             <div class="step-ref passed">2</div>
                             <div class="step-cell passed">When method GET</div>
                         </div>
-                        <div class="time-cell passed">3056</div>
+                        <div class="time-cell passed">2257</div>
                     </div>
-                    <div class="preformatted" data-parent="2">15:59:20.233 request:
+                    <div class="preformatted" data-parent="2">11:36:15.230 request:
 1 &gt; GET https://reqres.in/api/users/2
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.11)
 
-15:59:21.306 response time in milliseconds: 1060.34
+11:36:15.989 response time in milliseconds: 746.37
 1 &lt; 200
-1 &lt; Age: 140
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Age: 1522
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 67c04d866d5e1d95-BLR
+1 &lt; CF-RAY: 67c7097f9fae1d29-BLR
 1 &lt; Cache-Control: max-age=14400
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Mon, 09 Aug 2021 10:29:21 GMT
+1 &lt; Date: Tue, 10 Aug 2021 06:06:14 GMT
+1 &lt; Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
 1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 &lt; NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cbgVc%2FfBKQsj49If4VXhpP0CzKD9htclS1%2BmPGu7S9Ahtdsb6lhYQFj5VNxCQWq02fcMWIlDKDSO54Aeuov5ztu7OYwVWax6CAz7DJUnY9WvbaUUX%2FAkj21FUyY%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZsvVCs%2BRhR886qShzx4JlHB9x2ICh4jz7ERw%2Fh9%2F8yW4p%2Fo7cQzeYVIVOI%2FP%2B%2B%2BupOJeyBD0UUuo%2FGv%2F1Yx6oJk69TdIBpvwV85zBifg6VF2BbpMR4XrX5WLadg%3D"}],"group":"cf-nel","max_age":604800}
 1 &lt; Server: cloudflare
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
-1 &lt; access-control-allow-origin: *
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Powered-By: Express
 1 &lt; alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
-1 &lt; etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
-1 &lt; via: 1.1 vegur
-1 &lt; x-powered-by: Express
 {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</div>
                     <div class="step-row">
                         <div class="step-container" id="3">
@@ -124,9 +124,9 @@
                             <div class="step-ref passed">4</div>
                             <div class="step-cell passed">Then print response</div>
                         </div>
-                        <div class="time-cell passed">39</div>
+                        <div class="time-cell passed">35</div>
                     </div>
-                    <div class="preformatted" data-parent="4">15:59:21.509 [print] {
+                    <div class="preformatted" data-parent="4">11:36:16.147 [print] {
   "data": {
     "last_name": "Weaver",
     "id": 2,
@@ -151,21 +151,21 @@
                             <div class="step-ref passed">5</div>
                             <div class="step-cell passed">* def expectedOutput = read('../data/result.json')</div>
                         </div>
-                        <div class="time-cell passed">1278</div>
+                        <div class="time-cell passed">2033</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="6">
                             <div class="step-ref passed">6</div>
                             <div class="step-cell passed">And match response == expectedOutput</div>
                         </div>
-                        <div class="time-cell passed">4</div>
+                        <div class="time-cell passed">2</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="7">
                             <div class="step-ref passed">7</div>
                             <div class="step-cell passed">And match response.data.id == 2</div>
                         </div>
-                        <div class="time-cell passed">10</div>
+                        <div class="time-cell passed">5</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container">
@@ -179,7 +179,7 @@
                             <div class="step-ref passed">8</div>
                             <div class="step-cell passed">And response.last_name != null</div>
                         </div>
-                        <div class="time-cell passed">90</div>
+                        <div class="time-cell passed">37</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container">
@@ -200,15 +200,23 @@
                             <div class="step-ref passed">9</div>
                             <div class="step-cell passed">* def job_code = response.data.job_code</div>
                         </div>
-                        <div class="time-cell passed">9</div>
+                        <div class="time-cell passed">5</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="10">
                             <div class="step-ref passed">10</div>
                             <div class="step-cell passed">And match job_code == null</div>
                         </div>
-                        <div class="time-cell passed">6</div>
+                        <div class="time-cell passed">3</div>
                     </div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref passed">11</div>
+                            <div class="step-cell passed">Then print config.anyVariable</div>
+                        </div>
+                        <div class="time-cell passed">9</div>
+                    </div>
+                    <div class="preformatted" data-parent="11">11:36:18.242 [print]</div>
                 </div>
             </div>
                 

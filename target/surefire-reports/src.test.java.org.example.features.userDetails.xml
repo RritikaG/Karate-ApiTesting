@@ -1,5 +1,5 @@
-<testsuite failures="0" name="src/test/java/org/example/features/userDetails.feature" skipped="0" tests="1" time="4.499382">
-  <testcase classname="src.test.java.org.example.features.userDetails" name="get call test" time="4.499382">
+<testsuite failures="0" name="src/test/java/org/example/features/userDetails.feature" skipped="0" tests="1" time="4.391419">
+  <testcase classname="src.test.java.org.example.features.userDetails" name="get call test" time="4.391419">
     <system-out>Given url 'https://reqres.in/api/users/2' ................................. passed
 When method GET ........................................................... passed
 Then status 200 ........................................................... passed
@@ -9,6 +9,7 @@ And match response == expectedOutput ...................................... pass
 And match response.data.id == 2 ........................................... passed
 And response.last_name != null ............................................ passed
 * def job_code = response.data.job_code ................................... passed
-And match job_code == null ................................................ passed</system-out>
+And match job_code == null ................................................ passed
+Then print config.anyVariable ............................................. passed</system-out>
   </testcase>
 </testsuite>

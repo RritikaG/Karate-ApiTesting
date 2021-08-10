@@ -16,3 +16,4 @@ Feature: user details
     # And response.data.job_code == null (canot do like this)
     * def job_code = response.data.job_code
     And match job_code == null
+    Then print anyVariable

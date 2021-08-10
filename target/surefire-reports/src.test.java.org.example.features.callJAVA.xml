@@ -1,7 +1,8 @@
-<testsuite failures="0" name="src/test/java/org/example/features/callJAVA.feature" skipped="0" tests="1" time="0.036293">
-  <testcase classname="src.test.java.org.example.features.callJAVA" name="call java method" time="0.036293">
+<testsuite failures="0" name="src/test/java/org/example/features/callJAVA.feature" skipped="0" tests="1" time="0.044645">
+  <testcase classname="src.test.java.org.example.features.callJAVA" name="call java method" time="0.044645">
     <system-out>* def javaDemo = Java.type('org.example.features.javaFunction') ........... passed
 * def result = new javaDemo().nonStaticFunction() ......................... passed
-* def result2 = javaDemo.staticFunction() ................................. passed</system-out>
+* def result2 = javaDemo.staticFunction() ................................. passed
+Then print anyVariable .................................................... passed</system-out>
   </testcase>
 </testsuite>

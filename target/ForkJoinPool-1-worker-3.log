@@ -1,4 +1,4 @@
-10:02:56.605 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:18:58.136 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
 10:02:58.485 request:
 1 > POST https://dummy.restapiexample.com/api/v1/create
 1 > Accept-Encoding: gzip,deflate

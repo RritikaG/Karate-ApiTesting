@@ -1,155 +1,168 @@
-00:33:58.095 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-23:41:05.249 request:
-1 > POST https://reqres.in/api/register
+10:02:56.605 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:02:58.485 request:
+1 > POST https://dummy.restapiexample.com/api/v1/create
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
-1 > Content-Length: 42
-1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
-1 > Host: reqres.in
+1 > Content-Length: 41
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.11)
-email=eve.holt%40reqres.in&password=pistol
+{"name":"test","salary":"123","age":"23"}
 
-23:41:06.655 response time in milliseconds: 1396.51
-1 < 200
+10:03:01.141 response time in milliseconds: 2635.88
+1 < 429
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 67c2f1e7a91e4ad4-HYD
+1 < CF-RAY: 67c680de7d721d89-BLR
 1 < Connection: keep-alive
-1 < Content-Length: 36
-1 < Content-Type: application/json; charset=utf-8
-1 < Date: Mon, 09 Aug 2021 18:11:05 GMT
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Tue, 10 Aug 2021 04:32:59 GMT
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IO9g0m47QIZO4PqGROGV8Q5eiW%2FMbRXhKVSNNBvDCsU6EKmHKxqWN6KvheqZtQewljI8tFW0ckFF%2F2JpBxQ8kW64kbW0nSNU1YpnFm5PNDQlKc0HSxO0qlNRXZ8%3D"}],"group":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < access-control-allow-origin: *
-1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
-1 < etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
-1 < via: 1.1 vegur
-1 < x-powered-by: Express
-{"id":4,"token":"QpwL5tke4Pnpja7X4"}
-
-23:41:06.866 [print] {
-  "id": 4,
-  "token": "QpwL5tke4Pnpja7X4"
-}
-
-23:41:06.922 [print] QpwL5tke4Pnpja7X4
-":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
-
-16:06:16.402 [print] {
-  "data": {
-    "last_name": "Weaver",
-    "id": 2,
-    "avatar": "https://reqres.in/img/faces/2-image.jpg",
-    "first_name": "Janet",
-    "email": "janet.weaver@reqres.in"
-  },
-  "support": {
-    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
-    "url": "https://reqres.in/#support-heading"
-  }
-}
-
-16:06:16.487 request:
-1 > GET https://reqres.in/api/users/2
-1 > Accept-Encoding: gzip,deflate
-1 > Connection: Keep-Alive
-1 > Host: reqres.in
-1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.11)
-
-16:06:16.736 response time in milliseconds: 247.40
-1 < 200
-1 < Age: 555
-1 < CF-Cache-Status: HIT
-1 < CF-RAY: 67c057ab3ed51d8d-BLR
-1 < Cache-Control: max-age=14400
-1 < Connection: keep-alive
-1 < Content-Type: application/json; charset=utf-8
-1 < Date: Mon, 09 Aug 2021 10:36:16 GMT
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3gw7oOFN7QrD408NW2fVFIm1OCKLkmGNI5fkOr7dqPgAl84HuYLJCcJALmdEIBQ3j5dJ6mUpSfa9huL%2BzdZYaKO3sVyR2AHlu4iGg5Swx5kUUA2%2Bq%2BCvYmvvmRE%3D"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=puyungCvcBaXP8SfwERU%2BotZIagnRSq5XWUs82YTV7u%2FYKgllG10%2BO6X9VCQdt3GSXboGwXLjSpSSC2yVslXZJBuO84XHMpEkM7bVLXFZHiB1Z3k6BtgdHJtGiaG8ixsfxgIafI2EHwxQkM%3D"}],"group":"cf-nel","max_age":604800}
 1 < Server: cloudflare
 1 < Transfer-Encoding: chunked
-1 < Vary: Accept-Encoding
-1 < access-control-allow-origin: *
 1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
-1 < etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
-1 < via: 1.1 vegur
-1 < x-powered-by: Express
-{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+1 < display: staticcontent_sol
+1 < expires: Mon, 09 Aug 2021 04:32:59 GMT
+1 < host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < pagespeed: off
+1 < referrer-policy: 
+1 < response: 429
+1 < retry-after: 41
+1 < vary: [Accept-Encoding, Accept-Encoding,Origin]
+1 < x-ezoic-cdn: Miss
+1 < x-middleton-display: staticcontent_sol
+1 < x-middleton-response: 429
+1 < x-origin-cache-control: no-cache, private
+1 < x-ratelimit-limit: 60
+1 < x-ratelimit-remaining: 57
+1 < x-ratelimit-reset: 1628570020
+1 < x-sol: pub_site
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-16:06:16.739 [print] {
-  "__arg": null,
-  "responseType": "json",
-  "responseHeaders": {
-    "Date": [
-      "Mon, 09 Aug 2021 10:36:16 GMT"
-    ],
-    "Content-Type": [
-      "application/json; charset=utf-8"
-    ],
-    "Transfer-Encoding": [
-      "chunked"
-    ],
-    "Connection": [
-      "keep-alive"
-    ],
-    "x-powered-by": [
-      "Express"
-    ],
-    "access-control-allow-origin": [
-      "*"
-    ],
-    "etag": [
-      "W/\"118-pbdwwFo9SKNhD3Lx5iHJyngpq00\""
-    ],
-    "via": [
-      "1.1 vegur"
-    ],
-    "Cache-Control": [
-      "max-age=14400"
-    ],
-    "CF-Cache-Status": [
-      "HIT"
-    ],
-    "Age": [
-      "555"
-    ],
-    "Expect-CT": [
-      "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
-    ],
-    "Report-To": [
-      "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=j9KzqJ26%2FcPodUA7wOoa6mU6rAIC6%2B1iSsljCtzD0EUbbkVth7MRr6i9%2B1JJZrAdHJD95c6pLRwTPKiUllQSl5xKgFl6lcuuTXAqWZWIvPbhgppHCMMfLDZmwoI%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
-    ],
-    "NEL": [
-      "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
-    ],
-    "Vary": [
-      "Accept-Encoding"
-    ],
-    "Server": [
-      "cloudflare"
-    ],
-    "CF-RAY": [
-      "67c057a908f41d20-BLR"
-    ],
-    "alt-svc": [
-      "h3-27=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3=\":443\"; ma=86400"
-    ]
-  },
-  "feature": C:/Automation/karateHandsOn/src/test/java/org/example/features/userDetails.feature,
-  "responseTime": 978,
-  "response": {
-    "data": {
-      "last_name": "Weaver",
-      "id": 2,
-      "avatar": "https://reqres.in/img/faces/2-image.jpg",
-      "first_name": "Janet",
-      "email": "janet.weaver@reqres.in"
-    },
-    "support": {
-      "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+
+10:03:01.158 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 50; columnNumber: 7; The element type "link" must be terminated by the matching end-tag "</link>".
+10:03:01.159 status code was: 429, expected: 200, response time: 2636, url: https://dummy.restapiexample.com/api/v1/create, response: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+ntributions towards server costs are appreciated!",
       "url": "https://reqres.in/#support-heading"
     }
   },

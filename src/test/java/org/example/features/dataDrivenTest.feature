@@ -9,7 +9,18 @@ Feature: data driven test
       When method POST
       Then status 200
       Then print response
+      * def result = response
+
+
+      Given path 'api/v1/employee/' + result.data.id
+      When method GET
+      Then status 200
+      Then print response
+
+
+     # Examples:
+     #   |name|salary|age
+     #   |test |123|23
 
       Examples:
-      |name|salary|age
-      |test |123|23
+      |read('../data/inputData.csv')
